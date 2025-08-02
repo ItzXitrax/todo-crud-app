@@ -24,4 +24,3 @@ El propósito principal de este proyecto es demostrar un flujo de trabajo de des
 *   **LocalStorage API**
 *   **Git y GitHub** para el control de versiones y el flujo de trabajo.
 
-## Estructura del Proyecto
