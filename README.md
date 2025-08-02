@@ -1,4 +1,4 @@
-# Proyecto: Todo App con CRUD y Git Flow
+# Proyecto: Todo App con CRUD y Git Flow : Willy Alcantara 2023-1076
 
 Este es un proyecto de una aplicación web de lista de tareas (Todo App) que implementa operaciones CRUD (Crear, Leer, Actualizar, Borrar) completas. La aplicación utiliza HTML, CSS y JavaScript vanilla, almacenando los datos localmente en el navegador a través de la API `localStorage`.
 
