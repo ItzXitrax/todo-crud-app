@@ -1,0 +1,89 @@
+/* Estilos del Login */
+.login-container {
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 1.5rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Estilos del Dashboard */
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+#add-task-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 2rem;
+}
+
+#new-task-input {
+    flex-grow: 1;
+    padding: 0.75rem;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#task-list {
+    list-style: none;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: var(--light-color);
+    transition: background-color 0.3s;
+}
+
+.task-item.completed .task-text {
+    text-decoration: line-through;
+    color: var(--secondary-color);
+}
+
+.task-item:hover {
+    background-color: #e9ecef;
+}
+
+.task-text {
+    flex-grow: 1;
+    cursor: pointer;
+}
+
+.task-actions button {
+    margin-left: 10px;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+}
